@@ -40,15 +40,15 @@ CREATE TABLE `pubs` (
 -- Dumping data for table `pubs`
 --
 
-INSERT INTO `pubs` (`id`, `name`, `street`, `manager name`, `phone number`, `image`) VALUES
-(1, 'Raise a Glass', 'Olive Avenue', 'Alan Madden', '020 919 2730', ''),
-(2, 'Cheers and Beers', 'Plaza Street', 'Kitty Sears', '020 911 5318', ''),
-(3, 'The Secret Saloon', 'Willow Way', 'Burnaby Rocha', '020 911 2516', ''),
-(4, 'Languid Lounge', 'Blossom Street', 'Lianne Hendrix', '020 911 9533', ''),
-(5, 'A Place to Toast', 'Ironwood Passage', 'Tre Wheatlry', '020 917 9126', ''),
-(6, 'Neon Nights', 'Station Lane', 'Macey Hawkins', '020 916 1486', ''),
-(7, 'The Meeting Place', 'Sunshine Way', 'Maisha McCartney', '020 914 1323', ''),
-(8, 'Beer Garden', 'Broom Row', 'Ioana Kenny', '020 912 0376', '');
+INSERT INTO `pubs` (`id`, `name`, `street`, `manager_name`, `phone_number`) VALUES
+(1, 'Raise a Glass', 'Olive Avenue', 'Alan Madden', '020 919 2730'),
+(2, 'Cheers and Beers', 'Plaza Street', 'Kitty Sears', '020 911 5318'),
+(3, 'The Secret Saloon', 'Willow Way', 'Burnaby Rocha', '020 911 2516'),
+(4, 'Languid Lounge', 'Blossom Street', 'Lianne Hendrix', '020 911 9533'),
+(5, 'A Place to Toast', 'Ironwood Passage', 'Tre Wheatlry', '020 917 9126'),
+(6, 'Neon Nights', 'Station Lane', 'Macey Hawkins', '020 916 1486'),
+(7, 'The Meeting Place', 'Sunshine Way', 'Maisha McCartney', '020 914 1323'),
+(8, 'Beer Garden', 'Broom Row', 'Ioana Kenny', '020 912 0376');
 
 --
 -- Indexes for dumped tables
